@@ -13,12 +13,16 @@ class calculation {
 		int result = a * b;
 		System.out.println("sum of numbers:"+result);
 	}
-
+	public static void divide (int a, int b) {
+		int result = a / b;
+		System.out.println("sum of numbers:"+result);
+}
 	public static void main (String[]args) {
 		int a=20, b=30;
 		calculation.addition(a,b);
 		calculation.subtraction(a,b);
 		calculation.multiplication(a,b);
-	}}
+calculation.divide(a,b);
+	}
 
 
